@@ -40,13 +40,21 @@
 }
 
 .two {
-  background-color: green;
-  height: 200px;
+  /* background-color: green; */
+  height: 400px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 15px;
+  column-gap: 25px;
 }
 
-.between-div {
+/* .between-div {
   background-color: gray;
+} */
+
+.between-image {
+  height: 80%;
+
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
 }

@@ -1,0 +1,38 @@
+.private-section {
+  width: 82rem;
+  margin: 40px auto;
+  padding: 30px;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 20px;
+}
+
+.private-container {
+  display: grid;
+  grid-template-columns: 270px 1fr;
+  column-gap: 15px;
+}
+
+.private-description {
+}
+
+.privates {
+  display: flex;
+  height: 250px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  column-gap: 15px;
+}
+
+.private {
+  min-width: 200px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 0;
+}
+
+.private p {
+  color: white;
+  margin: 5px;
+}
