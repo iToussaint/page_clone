@@ -1,0 +1,41 @@
+.advertise-section {
+  height: 500px;
+  background: url("../images/advertise.jpeg");
+  width: 82rem;
+  margin: 40px auto;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.advertise-content {
+  background-color: white;
+  width: 400px;
+  height: 370px;
+  border-radius: 20px;
+  margin-left: 60px;
+  padding: 10px 25px;
+}
+
+.advertise-content h1 {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: "Lardent Pro Slab", Georgia, Times, "Times New Roman", serif;
+}
+
+.advertise-content a {
+  padding: 15px;
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+.advertise-content p {
+  font-weight: normal;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
