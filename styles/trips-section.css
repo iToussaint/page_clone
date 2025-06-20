@@ -1,0 +1,52 @@
+.trips-section,
+.between-trips {
+  width: 82rem;
+  margin: 40px auto;
+}
+
+.trips {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.trip {
+  min-width: 280px;
+  text-decoration: none;
+}
+
+.trip-images {
+  height: 180px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.navigation {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(0, 0, 0, 0.4);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.two {
+  background-color: green;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+}
+
+.between-div {
+  background-color: gray;
+}

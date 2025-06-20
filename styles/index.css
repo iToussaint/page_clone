@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+  color: rgba(1, 12, 27, 0.8);
+  font-size: 14px;
+  font-weight: bold;
+  /* letter-spacing: 1px; */
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  padding: 15px;
+}
+
+.tabs {
+  display: flex;
+  list-style: none;
+  /* background-color: green; */
+}
+
+.logo {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: orange; */
+}
+
+.tabs {
+  flex: 4;
+}
+
+.tab-link {
+  padding: 0 20px;
+
+  color: rgb(0, 0, 54);
+
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.tab-link:hover {
+  color: rgb(0, 110, 255);
+}
+
+.download-link {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 3px 10px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 54);
+}
+
+.download-link:hover {
+  background-color: rgba(140, 199, 255, 0.2);
+}

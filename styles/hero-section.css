@@ -1,0 +1,60 @@
+.hero-section {
+  height: 580px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/hero-image.jpeg");
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-icon,
+.icon {
+  width: 20px;
+}
+
+.divs-container {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  padding: 30px;
+  background-color: white;
+  column-gap: 20px;
+  width: 75rem;
+  border-radius: 15px;
+  position: sticky;
+  top: 0;
+}
+
+.seek-button {
+  background-color: blue;
+  color: white;
+  border-radius: 50px;
+  border: none;
+}
+.divs {
+  display: flex;
+  column-gap: 20px;
+}
+.div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border: 1px solid rgb(167, 167, 167);
+  padding: 5px 20px;
+  column-gap: 10px;
+  border-radius: 10px;
+}
+
+.description p {
+  margin: 0;
+  font-weight: normal;
+}
+
+.hero-heading {
+  font-size: 35px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

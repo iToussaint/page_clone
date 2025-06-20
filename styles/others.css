@@ -1,0 +1,75 @@
+.register-div {
+  background-color: rgb(0, 13, 70);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80rem;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.register-message {
+  display: flex;
+  align-items: center;
+  color: white;
+  column-gap: 10px;
+  font-weight: bold;
+}
+
+.register-icon-div {
+  padding: 12px;
+  background-color: rgb(118, 172, 189);
+  border-radius: 50%;
+}
+
+.register-button {
+  background-color: rgb(0, 102, 255);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.raisens-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 82rem;
+  margin: auto;
+  height: 130px;
+  gap: 15px;
+}
+
+.raisen {
+  background-color: rgb(0, 132, 255);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 20px;
+  overflow: hidden;
+  color: white;
+  text-decoration: none;
+}
+.raisen-image {
+  background-color: blue;
+}
+
+.raisen-description {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: bold;
+  align-items: start;
+}
+
+.raisen-info {
+  color: white;
+}
+.raisen-button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: normal;
+}
