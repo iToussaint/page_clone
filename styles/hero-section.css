@@ -8,30 +8,34 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  font-weight: 400;
 }
 
-.div-icon,
-.icon {
-  width: 20px;
+.div i {
+  font-size: 20px;
 }
 
 .divs-container {
   display: grid;
-  grid-template-columns: 1fr 80px;
-  padding: 30px;
+  grid-template-columns: 1fr 70px;
+  padding: 25px;
   background-color: white;
   column-gap: 20px;
-  width: 75rem;
+  width: 67rem;
   border-radius: 15px;
   position: sticky;
   top: 0;
 }
 
 .seek-button {
-  background-color: blue;
+  background-color: rgb(0, 119, 255);
   color: white;
   border-radius: 50px;
   border: none;
+  font-weight: bold;
+  font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 .divs {
   display: flex;
@@ -42,18 +46,25 @@
   flex: 1;
   align-items: center;
   border: 1px solid rgb(167, 167, 167);
-  padding: 5px 20px;
+  padding: 2px 10px;
   column-gap: 10px;
   border-radius: 10px;
 }
 
 .description p {
   margin: 0;
-  font-weight: normal;
+  font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(25, 30, 59);
+  font-weight: 400;
 }
 
 .hero-heading {
-  font-size: 35px;
-  color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Lardent Pro Slab", Georgia, Times, "Times New Roman", serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgb(255, 255, 255);
 }
