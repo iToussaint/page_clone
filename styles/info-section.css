@@ -12,5 +12,10 @@
 }
 
 .ideas {
-  background-color: green;
+  list-style: none;
+}
+.ideas li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
